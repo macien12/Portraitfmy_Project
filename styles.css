@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
+    margin: 0;
 }
 
 /* =================
@@ -21,10 +22,23 @@ h1 {
 }
 
 /* =================
+    Flex containers
+   ================= */
+
+.intro,
+.main-content {
+    display: flex;
+    flex-direction: column;    
+}
+
+/* =================
     Intro
    ================= */
-   
+
 .intro { 
+    justify-content: center;
+    min-height: 250px;
+    text-align: center;
     color: #fff;
     background-color: #9480e4;
 }
@@ -33,7 +47,19 @@ h1 {
     Main content
    ==================== */
 
+.main-content {
+    align-items: center;
+    
+    padding-top: 2.5em; /* 40 / 16 = 2.5 */
+    padding-left: 2em; /* 32 / 16 = 2 */
+    padding-right: 2em;
+}
 
+.img-main {
+    width: 120px;
+    border-radius: 50%;
+}
+ 
 /* =================
     Form
    ================= */
