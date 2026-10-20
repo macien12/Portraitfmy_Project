@@ -103,4 +103,7 @@ p {
     body {
         display: flex;
     }
+    .intro {
+        min-height: 100vh;
+    }
 }
