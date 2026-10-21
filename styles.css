@@ -85,6 +85,14 @@ p {
     padding-bottom: 1.5em;
 }
 
+.hero-text h1 {
+    margin-bottom: 0;
+}
+
+.hero-text p {
+    margin-top: 0.5em;
+}
+
 /* ====================
     Main content
    ==================== */
